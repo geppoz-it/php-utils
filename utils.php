@@ -1,4 +1,4 @@
-function dumpToTable($array){
+function dump_to_table($array){
         if (!is_array($array)){
                 return htmlspecialchars($array);
         } else {
